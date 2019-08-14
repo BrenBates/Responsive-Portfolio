@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Biography</title>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+  
+</head>
+
+  <body link="#4aaaa5" vlink="#4aaaa5" alink="#4aaaa5">
+    
+    <header>
+    
+  <!-- For the header section of the page, I created a div for the name and a div containing the links to the other sections (about, portfolio and contact).
+  
+  The about, portfolio and contact links are all in their own individual divs.  These are all nested.  I gave the div classes borders for the necessary decoration on the page.
+  -->
+
+      <div class="name">
+        <h1>Brennen Bates</h1>
+      </div>
+    
+      <div class="tabs">
+        
+        <div class="about">
+          <a href="index.html">About</a>
+        </div>
+
+        <div class="portfolio">
+        <a href="portfolio.html">Portfolio</a>
+        </div>
+
+        <div class="contact"> 
+          <a href="contact.html">Contact</a>
+        </div> 
+
+      </div>
+
+
+    </header>
+
+    
+   
+    <br>
+
+      
+    
+
+
+
+<!-- setting up a form and it's various inputs for this 'contact' section.  The message input is done as a 'textarea' instead of an 'input'
+This allows the user to expand and contract the message area. -->  
+
+    <div class="mycontactsection">
+
+            <h1 id="abmhead">Contact</h1>
+
+
+            <form>
+
+                <h4>Name</h4>
+                <input type="text" class="basicinput" placeholder="John Smith" name="nameinput">
+
+                <h4>Email</h4>
+                <input type="text" class="basicinput" placeholder="example@gmail.com" name="emailinput"> 
+
+                <h4>Message</h4>
+                
+                  <textarea id="message" name="messageinput"> </textarea>
+                  
+                <input type="submit" value="Submit" class="submitbutton">
+
+            </form>
+
+          
+
+
+
+
+    </div>
+
+  
+ 
+  
+</div>
+
+
+    
+
+  </body>
+
+    <footer>
+
+      Copyright ©
+
+    </footer>
+</html>
