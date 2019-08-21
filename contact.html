@@ -9,18 +9,18 @@
 
   <body link="#4aaaa5" vlink="#4aaaa5" alink="#4aaaa5">
     
-    <header>
+    <header id="contactHeader">
     
   <!-- For the header section of the page, I created a div for the name and a div containing the links to the other sections (about, portfolio and contact).
   
   The about, portfolio and contact links are all in their own individual divs.  These are all nested.  I gave the div classes borders for the necessary decoration on the page.
   -->
 
-      <div class="name">
-        <h1>Brennen Bates</h1>
+      <div class="name" id="contactName">
+        <h1>Bren Bates</h1>
       </div>
     
-      <div class="tabs">
+      <div class="tabs" id="contactTabs">
         
         <div class="about">
           <a href="index.html">About</a>
@@ -58,13 +58,13 @@ This allows the user to expand and contract the message area. -->
 
             <form>
 
-                <h4>Name</h4>
+                <h3>Name</h3>
                 <input type="text" class="basicinput" placeholder="John Smith" name="nameinput">
 
-                <h4>Email</h4>
+                <h3>Email</h3>
                 <input type="text" class="basicinput" placeholder="example@gmail.com" name="emailinput"> 
 
-                <h4>Message</h4>
+                <h3>Message</h3>
                 
                   <textarea id="message" name="messageinput"> </textarea>
                   
@@ -89,9 +89,9 @@ This allows the user to expand and contract the message area. -->
 
   </body>
 
-    <footer>
+    <footer id="contactFooter">
 
-      Copyright ©
+      <p id="contactCopyright"> © Copyright  </p>
 
     </footer>
 </html>
