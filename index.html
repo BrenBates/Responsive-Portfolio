@@ -2,7 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <!-- Media query meta tag for viewport responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Biography</title>
+    <!--Meyer's CSS reset-->
+    <link href="assets/css/cssreset.css" type="text/css" rel="stylesheet">
+
+    <!--Custom CSS stylesheet-->
     <link href="assets/css/style.css" type="text/css" rel="stylesheet">
   
 </head>
@@ -14,14 +21,14 @@
   The about, portfolio and contact links are all in their own individual divs.  These are all nested.  I gave the div classes borders for the necessary decoration on the page.
   -->
 
-    <header>
+    <header id="aboutHeader">
     
 
-      <div class="name">
-        <h1>Brennen Bates</h1>
+      <div class="name" id="aboutName">
+        <h1>Bren Bates</h1>
       </div>
     
-      <div class="tabs">
+      <div class="tabs" id="aboutTabs">
         
         <div class="about">
           <a href="index.html">About</a>
@@ -96,9 +103,9 @@ I also had to get the text to be double spaced, this is done in the style.css fi
 
   </body>
 
-    <footer>
+    <footer id="aboutFooter">
 
-      Copyright ©
+      <p id="aboutCopyright">© Copyright</p>
 
     </footer>
 </html>
