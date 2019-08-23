@@ -628,6 +628,14 @@ a {
        padding: 28px 0 27px 0;
    }
 
+   #aboutTabs {
+    
+    float:right;
+    padding-top: 30px;
+    
+    
+}
+
 
 
     #aboutFooter {
