@@ -89,20 +89,6 @@ h1 {
 
 }
 
-.basicinput {
-    width: 920px;
-    padding: 3px 0 3px 5px;
-}
-
-#message {
-    width: 920px;
-    height: 150px;
-    padding: 3px 0 3px 5px;
-    margin-bottom: 10px;
-    margin-left: 15px;
-    resize: both;
-    overflow: auto;
-}
 
 
 .submitbutton {
@@ -166,7 +152,22 @@ input {
     
     margin-left: 15px;
     margin-bottom: 10px;
+    border-color: #4aaaa5;
+    border-width: 1px;
    
+}
+
+
+
+#message {
+    width: 920px;
+    height: 150px;
+    padding: 3px 0 3px 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    resize: both;
+    overflow: auto;
+    border-color: #4aaaa5;
 }
 
 
@@ -218,6 +219,7 @@ a {
 .nameAndTabsContainer {
     width: 1120px;
     height: 50px;
+    background-color:blue;
     }
 
 
@@ -397,21 +399,25 @@ td {
     
     #aboutmepic640px {
         display:block;
-        margin-left: 120px;
+        width: 60%;
+        margin-left: 100px;
+        padding: 10px 0 10px 0;
       
+    }
+
+    #aboutmepic {
+        display: none;
     }
   
   
     .aboutmesection{
         margin-left: 15px;
-        width: 460px;
-        height: 500px;
+        width: 580px;
+        height: 600px;
         margin-top: 20px;
     }
   
-    #aboutmepic {
-        display:none;
-    }
+   
   
   
     #aboutFooter {
@@ -562,21 +568,26 @@ td {
     background-color:#ffffff;
   }
   
-  .basicinput {
-    width: 520px;
-    padding: 3px 0 3px 5px;
-  }
+
   
   #message {
+    
     width: 520px;
-    height: 150px;
+    height: 250px;
     padding: 3px 0 3px 5px;
     margin-bottom: 10px;
     margin-left: 15px;
     resize: both;
     overflow: auto;
+   
   }
-  
+
+  .basicinput { 
+      width: 520px;
+      padding: 3px 0 3px 5px;
+  }
+
+ 
   
   #contactFooter {
   
@@ -608,54 +619,25 @@ td {
 /**********************************************/
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) {
 
 
 
     /* About section 768px Media Queries */
 
-    
-    #aboutHeader{
-     
-        display:block;
+    .nameAndTabsContainer {
+        width: 768px;
     }
-    
-    .name640px {
-        display:none;
-    }
-  
-    .tabs640px {
-        display:none;
-    }
-
-    #aboutmepic640px {
-        display: none;
-    }
-
-    #aboutmepic {
-        display:block;
-    }
-  
-
-    #aboutName{
+            
+    .aboutmesection {
         margin-left: 15px;
-       padding: 27.5px 0 27.5px 0;
+        width: 710px;
     }
 
-    #aboutTabs {
-        
-        float:left;
-        width: 240px;
-        margin-left: 185px;
-        padding-top: 30px;
-        
-    
-    }
+   #aboutName { 
+       margin-left: 15px;
+   }
 
-    #aboutHeader{
-        padding: 0 0 0 0;
-        height: 80px;
-    }
 
 
     #aboutFooter {
@@ -679,17 +661,11 @@ td {
         font-size: 8px;
     }
 
-    #aboutmepic {
-        width: 300px;
-        height: 300px;
-    }
+   
 
 
       /* Portfolio section 768px Media Queries */
 
-.nameAndTabsContainer {
-width: 768px;
-    }
     
       
 #portfolioName {
@@ -767,9 +743,6 @@ width: 768px;
 
 /* Contact section 768px Media Queries */
 
-.nameAndTabsContainer {
-    width: 300px;
-}
 
 
 #contactName {
@@ -795,7 +768,6 @@ width: 768px;
     width: 700px;
     margin-top: 100px;
     margin-left: 15px;
-    margin-bottom: 100px;
     padding-top: 5px;
     padding-right: 10px;
     padding-left: 10px;
@@ -809,7 +781,7 @@ width: 768px;
 
 #message {
     width: 660px;
-    height: 150px;
+    height: 250px;
     padding: 3px 0 3px 5px;
     margin-bottom: 10px;
     margin-left: 15px;
@@ -848,16 +820,16 @@ width: 768px;
 /**********************************************/
 
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 960px) {
 
-    /* 980px Media tags for the About page.  Had to use IDs so I could style the 3 pages individually to accomplish the needed images. */
+    /* 980px Media tags for the About page.  Setting min-width to 980px wouldn't show the change until I set the width to 1000px, so I set the min-width to 960px  */
     
-        #nameAndTabs980px {
-            width: 930px;
-            }
+       .nameAndTabsContainer {
+           width: 950px;
+       }
 
         .aboutmesection {
-            width: 600px;
+            width: 590px;
             margin-left: 40px;
         }
     
@@ -1021,13 +993,14 @@ width: 768px;
     }
     
     .basicinput {
-        width: 490px;
+        width: 560px;
         padding: 3px 0 3px 5px;
         margin-bottom: 15px;
+        
     }
     
     #message {
-        width: 490px;
+        width: 560px;
         height: 150px;
         padding: 3px 0 3px 5px;
         margin-bottom: 10px;
@@ -1062,6 +1035,3 @@ width: 768px;
     
     
     }
-
-
-
