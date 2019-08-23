@@ -219,7 +219,6 @@ a {
 .nameAndTabsContainer {
     width: 1120px;
     height: 50px;
-    background-color:blue;
     }
 
 
@@ -681,10 +680,7 @@ td {
     
 }
 
-#portfolioHeader{
-    padding: 0 0 0 0;
-    height: 80px;
-}
+
 
 .myportfoliosection {
     width: 680px;
@@ -758,10 +754,7 @@ td {
     
 }
 
-#contactHeader{
-    padding: 0 0 0 0;
-    height: 80px;
-}
+
 
 .mycontactsection { 
  
@@ -846,10 +839,7 @@ td {
             
         }
     
-        #aboutHeader{
-            padding: 0 0 0 0;
-            height: 80px;
-        }
+       
     
     
         #aboutmepic {
